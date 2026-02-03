@@ -182,13 +182,21 @@ This comprehensive dashboard shows:
 | **Precision** | 28.68% |
 | **F1 Score** | 36.30% |
 
-### Baseline vs Tuned Comparison
+### Baseline Model Results
 
 | Model | AUC-ROC | Recall | Precision | F1 | Train Time |
 |-------|---------|--------|-----------|-----|------------|
-| **XGBoost (Tuned)** | 0.8185 | 0.4944 | 0.2868 | 0.3630 | - |
-| LightGBM (Tuned) | 0.8185 | 0.1497 | - | - | - |
-| CatBoost (Tuned) | 0.8183 | 0.1504 | - | - | 4.35s (GPU) |
+| XGBoost | 0.8181 | 0.1514 | 0.7943 | 0.2543 | 11.56s |
+| LightGBM | 0.8182 | 0.1515 | 0.7970 | 0.2547 | 13.68s |
+| CatBoost (GPU) | 0.8181 | 0.1633 | 0.7331 | 0.2671 | 4.35s |
+
+### Tuned Model Results
+
+| Model | AUC-ROC | Recall | Precision | F1 |
+|-------|---------|--------|-----------|-----|
+| **XGBoost (Best)** | **0.8185** | **0.4944** | 0.2868 | 0.3630 |
+| LightGBM | 0.8185 | 0.1497 | 0.7997 | 0.2524 |
+| CatBoost (GPU) | 0.8183 | 0.1504 | 0.7873 | 0.2526 |
 
 ### Model Selection Guide
 
