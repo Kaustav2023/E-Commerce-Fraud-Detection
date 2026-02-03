@@ -115,9 +115,9 @@ The top predictors of fraud (from XGBoost model):
 | CatBoost | 0.7995 | 0.8238 | +3.04% |
 
 **Recall Improvement** (catching actual fraud):
-- XGBoost: 45.1% → **74.2%** (+64.55% relative improvement!)
-- LightGBM: 54.5% → 73.4% (+34.59%)
-- CatBoost: 60.7% → 72.5% (+19.59%)
+- XGBoost: 45.08% → **74.18%** (+64.55% relative improvement!)
+- LightGBM: 54.51% → 73.36% (+34.59%)
+- CatBoost: 60.66% → 72.54% (+19.59%)
 
 ### 4. 💳 Payment & Category Patterns
 
@@ -157,7 +157,7 @@ This comprehensive dashboard shows:
 - **Model Comparison**: Side-by-side AUC, F1, Precision, Recall metrics
 - **Tuning Results**: Before vs After hyperparameter optimization
 - **Performance Improvements**: All models improved to ~0.82+ AUC
-- **Best Model**: XGBoost achieved 0.8368 AUC with 74.2% Recall
+- **Best Model**: XGBoost achieved 0.8368 AUC with 74.18% Recall
 
 ---
 
@@ -180,7 +180,7 @@ Classification Report:
 
 | Use Case | Recommended Model | Reasoning |
 |----------|-------------------|-----------|
-| **Maximize Fraud Detection** | Tuned XGBoost | 74.2% recall - catches most fraud |
+| **Maximize Fraud Detection** | Tuned XGBoost | 74.18% recall - catches most fraud |
 | **Minimize False Alerts** | Baseline XGBoost | Higher precision |
 | **Production Speed** | LightGBM | Fastest inference time |
 | **Categorical Features** | CatBoost | Native handling, no encoding needed |
