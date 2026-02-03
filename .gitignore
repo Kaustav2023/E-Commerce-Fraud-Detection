@@ -1,0 +1,2 @@
+# Ignore large dataset files (>100MB GitHub limit)
+Dataset/Fraudulent_E-Commerce_Transaction_Data.csv

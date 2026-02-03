@@ -1,0 +1,24 @@
+Feature,Importance
+Account Age Days,0.3829056
+account_age_bin,0.14427869
+is_night,0.11175382
+Transaction Hour,0.07502406
+amount_log,0.07480033
+Transaction Amount,0.0663455
+is_very_high_amount,0.035455026
+hour_bin,0.028114315
+payment_method_encoded,0.02394693
+day_of_week,0.013701733
+device_encoded,0.011556664
+Customer Age,0.011407542
+Quantity,0.011148295
+product_category_encoded,0.0095614735
+is_new_account,0.0
+is_very_new_account,0.0
+is_weekend,0.0
+is_high_amount,0.0
+amount_bin,0.0
+address_mismatch,0.0
+is_young_customer,0.0
+is_senior_customer,0.0
+customer_age_bin,0.0

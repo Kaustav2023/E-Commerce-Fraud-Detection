@@ -1,0 +1,4 @@
+Model,Before AUC,After AUC,AUC Change,Before Recall,After Recall,Recall Change
+XGBoost,0.7885,0.8368,+6.12%,0.4508,0.7418,+64.55%
+LightGBM,0.7872,0.8313,+5.59%,0.5451,0.7336,+34.59%
+CatBoost,0.7995,0.8238,+3.04%,0.6066,0.7254,+19.59%
