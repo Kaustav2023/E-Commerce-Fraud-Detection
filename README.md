@@ -139,13 +139,13 @@ This project implements a **multi-model ensemble approach** using gradient-boost
 | 9 | is_high_amount | 0.0055 |
 | 10 | Account Age Days | 0.0015 |
 
-### 5. ⚡ Training Performance (GPU vs CPU)
+### 5. ⚡ Training Performance (GPU vs CPU) & Accuracy
 
-| Model | Device | Training Time | Speed Advantage |
-|-------|--------|---------------|-----------------|
-| XGBoost | CPU | 11.56s | - |
-| LightGBM | CPU | 13.68s | - |
-| **CatBoost** | **GPU** | **4.35s** | **3.1x faster** |
+| Model | Device | Training Time | Accuracy | Speed Advantage |
+|-------|--------|---------------|----------|-----------------|
+| **XGBoost** | CPU | 11.56s | 93.56% | - |
+| LightGBM | CPU | 13.68s | 95.54% | - |
+| **CatBoost** | **GPU** | **4.35s** | **95.51%** | **3.1x faster** |
 
 ---
 
@@ -215,7 +215,7 @@ This comprehensive dashboard shows:
 E-Commerce-Fraud-Detection/
 │
 ├── 📓 Jupyter Notebooks
-│   └── Fraud_Detection_Pipeline_Updated.ipynb  # Complete ML pipeline
+│   └── Updated Fraud Detection Models/Final_Fraud_Detection_Pipeline.ipynb  # Complete ML pipeline
 │
 ├── 📊 Data Files
 │   ├── Dataset/
@@ -275,7 +275,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboo
 ### Step 3: Run the Jupyter Notebook
 
 ```bash
-jupyter notebook Fraud_Detection_Pipeline_Updated.ipynb
+jupyter notebook "Updated Fraud Detection Models/Final_Fraud_Detection_Pipeline.ipynb"
 ```
 
 Then execute cells sequentially (Shift + Enter).
