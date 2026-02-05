@@ -215,7 +215,7 @@ This comprehensive dashboard shows:
 E-Commerce-Fraud-Detection/
 │
 ├── 📓 Jupyter Notebooks
-│   └── Updated Fraud Detection Models/Final_Fraud_Detection_Pipeline.ipynb  # Complete ML pipeline
+│   └── Updated Fraud Detection Models/Updated Final Fraud Detection Pipeline.ipynb  # Complete ML pipeline
 │
 ├── 📊 Data Files
 │   ├── Dataset/
@@ -275,7 +275,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboo
 ### Step 3: Run the Jupyter Notebook
 
 ```bash
-jupyter notebook "Updated Fraud Detection Models/Final_Fraud_Detection_Pipeline.ipynb"
+jupyter notebook "Updated Fraud Detection Models/Updated Final Fraud Detection Pipeline.ipynb"
 ```
 
 Then execute cells sequentially (Shift + Enter).
