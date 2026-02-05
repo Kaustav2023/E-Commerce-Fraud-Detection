@@ -1,2 +1,4 @@
 # Ignore large dataset files (>100MB GitHub limit)
 Dataset/Fraudulent_E-Commerce_Transaction_Data.csv
+E-Commerce Fraud Detection on Dataset 1_4.4M/Fraudulent_E-Commerce_Transaction_Data.csv
+Test_Fraud_Detection_Model.ipynb
